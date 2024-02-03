@@ -23,7 +23,7 @@ const Icons = {
       />
     </svg>
   ),
-  home: () => (
+  home: (color: string = "black") => (
     <svg
       width="1em"
       height="1em"
@@ -35,21 +35,21 @@ const Icons = {
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M0.809692 10.4174C0.809692 5.79849 1.31333 6.12085 4.02428 3.60676C5.21037 2.65198 7.05595 0.809685 8.64971 0.809685C10.2427 0.809685 12.1251 2.64296 13.3219 3.60676C16.0329 6.12085 16.5357 5.79849 16.5357 10.4174C16.5357 17.2148 14.9288 17.2148 8.67268 17.2148C2.41658 17.2148 0.809692 17.2148 0.809692 10.4174Z"
-        stroke="white"
+        stroke={color}
         stroke-width="1.23039"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M6.28796 12.4044H11.0578"
-        stroke="white"
+        stroke={color}
         stroke-width="1.23039"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
     </svg>
   ),
-  graph: () => (
+  graph: (color: string = "black") => (
     <svg
       width="1em"
       height="1em"
@@ -61,7 +61,7 @@ const Icons = {
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M10.1149 1.41435C9.50511 2.1163 9.26223 6.53035 9.97106 7.24005C10.6799 7.94802 14.9389 7.58973 15.9621 6.78443C18.4237 4.84569 12.0614 -0.826694 10.1149 1.41435Z"
-        stroke="black"
+        stroke={color}
         stroke-width="1.04722"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -70,14 +70,14 @@ const Icons = {
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M13.9553 10.4073C14.8889 11.3409 12.4136 16.6636 7.50778 16.6636C3.8439 16.6636 0.874207 13.6939 0.874207 10.0309C0.874207 5.46613 5.37783 2.54639 6.66889 3.83745C7.41218 4.58073 6.57501 8.07839 7.90827 9.41251C9.24153 10.7466 13.0217 9.47366 13.9553 10.4073Z"
-        stroke="black"
+        stroke={color}
         stroke-width="1.04722"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
     </svg>
   ),
-  work: () => (
+  work: (color: string = "black") => (
     <svg
       width="1em"
       height="1em"
@@ -87,14 +87,14 @@ const Icons = {
     >
       <path
         d="M8.79654 12.3729V10.1871"
-        stroke="black"
+        stroke={color}
         stroke-width="1.05918"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M16.389 8.18169L16.3648 8.19916C14.3504 9.44011 11.6905 10.1895 8.79273 10.1895C5.89497 10.1895 3.24256 9.44011 1.22893 8.19916L1.20398 8.18169"
-        stroke="black"
+        stroke={color}
         stroke-width="1.05918"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -103,21 +103,21 @@ const Icons = {
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M1.1355 9.73956C1.1355 4.62272 3.05098 2.91683 8.79661 2.91683C14.5431 2.91683 16.4577 4.62272 16.4577 9.73956C16.4577 14.8564 14.5431 16.5623 8.79661 16.5623C3.05098 16.5623 1.1355 14.8564 1.1355 9.73956Z"
-        stroke="black"
+        stroke={color}
         stroke-width="1.05918"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M11.5103 3.10117V2.57718C11.5103 1.52587 10.7426 0.67334 9.79689 0.67334H7.79657C6.85088 0.67334 6.08319 1.52587 6.08319 2.57718V3.10117"
-        stroke="black"
+        stroke={color}
         stroke-width="1.05918"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
     </svg>
   ),
-  profile: () => (
+  profile: (color: string = "black") => (
     <svg
       width="1em"
       height="1em"
@@ -129,7 +129,7 @@ const Icons = {
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M7.00002 18.488C3.63046 18.488 0.75293 17.9637 0.75293 15.8637C0.75293 13.7638 3.6122 11.8252 7.00002 11.8252C10.3696 11.8252 13.2471 13.745 13.2471 15.8449C13.2471 17.944 10.3878 18.488 7.00002 18.488Z"
-        stroke="black"
+        stroke={color}
         stroke-width="1.04743"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -138,7 +138,7 @@ const Icons = {
         fill-rule="evenodd"
         clip-rule="evenodd"
         d="M6.99341 8.91533C9.20466 8.91533 10.9969 7.12309 10.9969 4.91184C10.9969 2.70059 9.20466 0.907532 6.99341 0.907532C4.78216 0.907532 2.9891 2.70059 2.9891 4.91184C2.98163 7.11563 4.76142 8.90786 6.9652 8.91533C6.97516 8.91533 6.98428 8.91533 6.99341 8.91533Z"
-        stroke="black"
+        stroke={color}
         stroke-width="1.04743"
         stroke-linecap="round"
         stroke-linejoin="round"

@@ -1,4 +1,4 @@
-import Page from "components/page";
+import Page from "components/Page/page";
 
 function App() {
   return <Page />;
