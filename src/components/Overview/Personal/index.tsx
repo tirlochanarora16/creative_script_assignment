@@ -1,5 +1,13 @@
+import ContainerCard from "../Container";
+
+import styles from "./personal.module.css";
+
 const PersonalOverview = () => {
-  return <div>PersonalOverview</div>;
+  return (
+    <div className={styles.personal}>
+      <ContainerCard title="Your Overview">Personal</ContainerCard>
+    </div>
+  );
 };
 
 export default PersonalOverview;

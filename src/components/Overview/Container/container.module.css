@@ -1,0 +1,27 @@
+.container {
+  background: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  border-radius: 35px;
+}
+
+.container_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.container_top p {
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.container_icon {
+  background-color: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
